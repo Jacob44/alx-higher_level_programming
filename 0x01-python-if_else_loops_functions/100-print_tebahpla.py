@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-for l in reversed(range(ord('a'), ord('z') + 1)):
-    if (l % 2 == 0):
-        print('{:s}'.format(chr(l)), end='')
+for k in reversed(range(ord('a'), ord('z') + 1)):
+    if (k % 2 == 0):
+        print('{:s}'.format(chr(k)), end='')
     else:
-        l = l - 32
-        print('{:s}'.format(chr(l)), end='')
+        k = k - 32
+        print('{:s}'.format(chr(k)), end='')
