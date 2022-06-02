@@ -8,5 +8,3 @@ if __name__ == "__main__":
         print('{:d} arguments:'.format(ln - 1))
         for i in range(1, ln):
             print('{:d}: {:s}'.format(i, argv[i]))
-
-    
